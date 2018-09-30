@@ -26,11 +26,13 @@ Plug 'mhinz/vim-startify'
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'Raimondi/delimitMate'		"autoclose bracket
-Plug 'airblade/vim-gitgutter'		"git add/remove line
+Plug 'junegunn/goyo.vim'
+Plug 'amix/vim-zenroom2'
 Plug 'vim-syntastic/syntastic'		"syntax checking for vim
 Plug 'haya14busa/incsearch.vim'		"incremental search
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'mhinz/vim-signify' "git show add/del lines
 call plug#end()
 
 
@@ -40,6 +42,7 @@ map <C-n> :NERDTreeToggle<CR>
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
 map g/ <Plug>(incsearch-stay)
+nnoremap <silent> <leader>z :Goyo<cr>
 
 
 "NERDTree
