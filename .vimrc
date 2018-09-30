@@ -3,7 +3,7 @@ syntax enable
 "Set
 set termguicolors
 set mouse=a
-set number
+"set number
 set tabstop=2
 set shiftwidth=2
 set wrap
