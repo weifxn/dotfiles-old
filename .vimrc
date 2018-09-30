@@ -24,7 +24,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'ayu-theme/ayu-vim'
 Plug 'mhinz/vim-startify'
 Plug 'scrooloose/nerdtree'
-Plug 'pangloss/vim-javascript'
+"Plug 'pangloss/vim-javascript'
+Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'Raimondi/delimitMate'		"autoclose bracket
 Plug 'junegunn/goyo.vim'
 Plug 'amix/vim-zenroom2'
@@ -33,6 +34,8 @@ Plug 'haya14busa/incsearch.vim'		"incremental search
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-signify' "git show add/del lines
+Plug 'w0rp/ale' "lint
+Plug 'Valloric/YouCompleteMe' "autocomplete
 call plug#end()
 
 
@@ -60,6 +63,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"js syntax
+let g:used_javascript_libs = 'react'
 
 
 let g:airline_theme='ayu_mirage'
