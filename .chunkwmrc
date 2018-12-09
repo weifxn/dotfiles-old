@@ -75,5 +75,7 @@ chunkc tiling::rule --owner \"WhatsApp\" --state float
 chunkc tiling::rule --owner \"Finder\" --state float
 chunkc tiling::rule --owner \"Telegram\" --state float
 chunkc tiling::rule --owner \"FaceTime\" --state float
+chunkc tiling::rule --owner \"Transmission\" --state float
+
 
   
