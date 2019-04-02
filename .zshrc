@@ -2,6 +2,7 @@ export PATH=/usr/local/bin:$PATH
 export ZSH="/Users/wf/.oh-my-zsh"
 export CLICOLOR=1
 export TERM=xterm-256color-italic
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 ZSH_THEME="nanotech"
 
